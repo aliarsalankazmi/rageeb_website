@@ -3,7 +3,7 @@
     "path": "~/Projects/Sideprojects/rageeb_website/rageeb_website.qmd",
     "project_path": "rageeb_website.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "2558624283",
     "contents": "",
     "dirty": false,
     "created": 1748188098410.0,
@@ -15,18 +15,18 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "4,15",
-        "scrollLine": "0",
+        "cursorPosition": "17,50",
+        "scrollLine": "15",
         "rmdVisualCollapsedChunks": "",
         "rmdVisualModeLocation": "2:0",
-        "docOutlineVisible": "1"
+        "docOutlineVisible": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1748188284,
+    "lastKnownWriteTime": 1748194086,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1748188285001,
+    "last_content_update": 1748194086707,
     "read_only": false,
     "read_only_alternatives": []
 }
