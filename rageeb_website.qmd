@@ -1,23 +1,112 @@
 ---
 title: "Manufacturing Mass Apathy:"
-subtitle: "How media frames a genocide"
+subtitle: "How media normalizes [mass atrocities in Palestine]{style='color: crimson;'}"
 format: 
   revealjs:
     theme: dark
     css: asset/custom.css
     transition: fade
+    transition-speed: slow
 ---
 
-# 
-![](images/01.jpg){width="80%" fig-align="center"}
 
-# 
-![](images/06.jpg){width="80%" fig-align="center"}
 
-# 
-![](images/03.jpg){width="80%" fig-align="center"}
+## News media, atrocities coverage, and duty to truth {.modif_h2}
 
-## Interactive data visualisation
+:::: {.columns}
+
+::: {.column width="50%"}
+<br>
+
+During mass atrocities and conflicts, traditional news media remain a critical conduit for _truthfully_ conveying events to the public, shaping how millions understand distant crises.
+
+<br>
+<br>
+
+With 60% of Gaza reduced to rubble ^[<a href="https://www.theguardian.com/world/2025/jan/18/a-visual-guide-to-the-destruction-of-gaza" target="_blank">The Guardian</a>] as of Jan 2025, the entire 2 Mn population being displaced multiple times, and according to a peer-reviewed Lancet study ^[<a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)01169-3/fulltext" target="_blank">Counting the dead in Gaza: difficult but essential</a>], <span style="color: red;">deaths exceeding 186,000 as of Jun 2024</span>, accurate media reporting becomes not just important but essential.
+
+<br>
+
+:::
+
+::: {.column width="50%"}
+<br>
+![](images/mourn1.jpg)
+:::
+
+::::
+
+# {background-color="white"}
+![](images/01_w.jpg){width="80%" fig-align="center"}
+
+# {background-color="white"}
+![](images/06_w.jpg){width="80%" fig-align="center"}
+
+# {background-color="white"}
+![](images/09_w.jpg){width="80%" fig-align="center"}
+
+## News media, atrocities coverage, and duty to truth {.modif_h2} 
+
+<br>
+<br>
+
+On the contrary, it was quickly noticed by many that news organisations are using various linguistic/framing tactics to blunt the sharp edge of truth from reaching the masses. 
+
+<br>
+<br>
+
+. . . 
+
+This study analyses news headlines from major Western publishers to catch such framing tactics. We leverage multiple LLMs to capture such biases, compare the presence of these with coverage of Russian-Ukrainian war, and then cross-check a sample of our detections with human evaluators. 
+
+<br>
+<br>
+
+. . .
+
+This study finds that majority of these publishers actually engage in ... 
+
+<br>
+
+## Framing tactics and biases {.modif_h2} 
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+| Framing biases |
+|---------|
+| Passive voice construction |
+| Agent deletion |
+| Nominalisation |
+| False equivalence |
+| Emotional valence shift |
+| Euphemism |
+| Distancing language |
+| Sanitising language |
+| Vague quantification |
+
+
+
+:::
+
+::: {.column width="50%"}
+
+| Framing tactics |
+|---------|
+| Empathetic and personal narrative construction |
+| Unemotional narrative construction |
+| Strategic headline framing |
+| Quotative framing |
+
+:::
+
+::::
+
+# Analysis 
+
+## Hellow world interactive data visualisation
 
 ```{r}
 #| echo: false
@@ -40,7 +129,7 @@ ggplotly(p)
 ```
 
 
-## Tabbed Charts
+## Hellow world - Tabbed Charts
 
 ::: {.panel-tabset}
 
@@ -104,13 +193,3 @@ ggplot(df3, aes(x = reorder(newspaper, bias_score), y = bias_score,
 ```
 :::
 
-## Quarto
-
-Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
-
-## Bullets
-
-When you click the **Render** button a document will be generated that includes:
-
--   Content authored with markdown
--   Output from executable code

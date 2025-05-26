@@ -51,3 +51,17 @@
   font-size: 3em !important;
 }
 
+/* Fix heading sizes */
+.modif_h2 {
+  font-size: 1.5em !important;
+}
+
+.modif_h3 {
+  font-size: 1.1em !important;
+}
+
+.modif_h4 {
+  font-weight: normal !important;
+  font-size: 1em !important;
+}
+
